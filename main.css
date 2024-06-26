@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 15pt Arial;
+    background-color: rgb(109, 109, 255);
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+span{
+    color: rgb(255, 205, 209);
+}
+
+span:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
+}
+
+input{
+    font: normal 10pt Arial;
+}
+
+button{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+    font: normal 10pt Arial;
+}
+
+button:hover{
+    border-style: dashed;
+    border-color: rgb(255, 104, 104);
+    cursor: pointer;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
